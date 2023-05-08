@@ -109,8 +109,8 @@
                                     <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
                                 </div>
                                 <div class="subscribe-form">
-                                    <form action="#">
-                                        <input type="text" placeholder="Email Address">
+                                    <form action="subscribe.php" method="post">
+                                        <input type="email" name="email" placeholder="Email Address">
                                         <button><i class="fab fa-telegram-plane"></i></button>
                                     </form>
                                 </div>

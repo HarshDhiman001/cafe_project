@@ -1,4 +1,5 @@
 <?php
+ini_set('display_errors', 0);
 include 'connection.php';
 $name=$_POST['name'];
 $email=$_POST['email'];
