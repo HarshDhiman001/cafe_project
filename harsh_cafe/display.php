@@ -79,8 +79,7 @@ include 'navbar.php';
     $result = mysqli_query($con,$sql);
     if(mysqli_num_rows($result)>0)
     {
-        foreach($result as $row)
-        {
+        foreach($result as $row){
     ?>
     <tr>
       <th scope="row"><?php echo $row['sno']; ?></th>
